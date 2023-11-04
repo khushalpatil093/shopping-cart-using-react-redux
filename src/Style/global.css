@@ -1,0 +1,72 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+    color: #DFDFDF;
+    background-color: #000000;
+}
+.navRightSide{
+    display: flex;
+    gap: 4rem;
+}
+.link{
+    color: #DFDFDF;
+    text-decoration: none;
+}
+.HomePage{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 2rem;
+    padding: 0rem 5rem;
+    background-color: #FFFFFF;
+}
+.item{
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    font-weight: bold;
+}
+.item img{
+    height: 14rem;
+    width: 16rem;
+}
+.item button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000;
+    color: #DFDFDF;
+    border: none;
+}
+.cartPage{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-gap: 2rem;
+    padding: 0rem 3rem;
+}
+.cartItem{
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    font-weight: bold;
+}
+.cartItem img{
+    height: 14rem;
+    width: 16rem;
+}
+.cartItem button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000;
+    color: #DFDFDF;
+    border: none;
+}
+.MyCartPage{
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+}
+.checkoutList{
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #DFDFDF;
+    padding: 0.5rem;
+    width: 18rem;
+}
